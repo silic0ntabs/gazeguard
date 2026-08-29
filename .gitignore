@@ -1,0 +1,18 @@
+# secrets & local state
+.env
+# generated sidecars (regenerable — never commit)
+*.halal.json
+# build / env
+venv/
+.venv/
+*.egg-info/
+__pycache__/
+*.pyc
+.DS_Store
+# test media (never commit)
+test_clips/
+test_media/
+test/
+# caches
+~/.gazeguard/
+.halalify/
