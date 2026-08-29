@@ -1,0 +1,25 @@
+{
+  "coarse": {
+    "sample_interval": 12.0,
+    "cut_window": 10.0,
+    "refine_step": 1.0,
+    "precision": 0.2,
+    "edge_precision": 1.0,
+    "sustained_min_span_s": 24.0,
+    "gap_merge": 1.0,
+    "lead_in": 0.3,
+    "trail_out": 0.2,
+    "min_block": 0.0,
+    "scene_sampling": true,
+    "dedup_samples": true,
+    "resolution": "broad",
+    "strip_size": 4,
+    "subtitle_grounding": true,
+    "model": "gemini-2.5-flash"
+  },
+  "flag": {
+    "episode_blocked_fraction": 0.60,
+    "show_flag_min_episodes": 2,
+    "show_flag_ratio": 0.50
+  }
+}
