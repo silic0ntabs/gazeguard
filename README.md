@@ -124,7 +124,7 @@ Spend guards live in `.env`: `GAZEGUARD_BUDGET` (hard cumulative cap) and
 - **Model doesn't judge.** It describes severity and situation; the policy (Python, mirrored
   1:1 in the Lua) decides blackout/blur/pass.
 - **False negatives are preferred over false positives.** An innocent scene passing is
-  tolerable; blurring an innocent scene (a mother with her daughter, a couple talking) is the
+  tolerable; blurring an innocent scene (a couple talking) is the
   failure we optimise against. Over-blocked episodes are recoverable by dropping to a lower
   profile at playback.
 
